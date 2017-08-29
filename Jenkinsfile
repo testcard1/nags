@@ -11,6 +11,6 @@ node {
 
    // Mark the code build 'stage'....
    stage 'Build'
-   office365ConnectorSend status:'Master branch', message:'Message from Multibranch pipeline', webhookUrl:'https://outlook.office.com/webhook/109e6889-9862-4399-8610-d9bd3a707d37@72f988bf-86f1-41af-91ab-2d7cd011db47/JenkinsCI/4f3002b2e733446d94c92b3f25c6ce54/11a97ad3-e780-471d-abd5-0abddae8e624'
+   office365ConnectorSend status:'Master branch', message:'Message from Multibranch pipeline', webhookUrl:'https://outlook.office.com/webhook/9b1297db-b626-4d4b-923a-6d52dd0f60fe@72f988bf-86f1-41af-91ab-2d7cd011db47/JenkinsCI/bbb392284dd045fb88eea0560b009f08/11a97ad3-e780-471d-abd5-0abddae8e624'
    // Run the maven build
 }
